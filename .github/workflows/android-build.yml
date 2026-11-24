@@ -23,7 +23,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir project
-          unzip -o IceFishingAnalyser_PhoneBuild_v1.1.zip -d project
+          unzip -o IceFishingAnalyser_PhoneBuild_v1.2.zip -d project
 
       - uses: gradle/actions/setup-gradle@v4
         with:
